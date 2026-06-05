@@ -36,6 +36,15 @@ The scoring follows two industry-standard multi-criteria decision methods:
 
 ---
 
+## Demo
+
+<div align="center">
+<img src="docs/demo.gif" alt="CCUS Suitability Analysis — application demo" width="90%"/>
+<p><sub>Loading a geodatabase, running the analysis, and exploring the ranking, 2D capacity map, and 3D terrain viewer.</sub></p>
+</div>
+
+---
+
 ## Key Features
 
 | | Feature |
@@ -72,13 +81,28 @@ V = A · h · φ · E · ρ_CO₂
 
 ## Screenshots
 
-> _Add a few screenshots here to give your program leader an instant feel for the app._
-> _Drop PNGs into a `docs/` folder and reference them, e.g.:_
->
-> ```markdown
-> ![Summary table](docs/screenshot-table.png)
-> ![3D viewer](docs/screenshot-3d.png)
-> ```
+<table>
+<tr>
+<td width="50%">
+<img src="docs/screenshot-dashboard.png" alt="Dashboard"/>
+<p align="center"><sub><b>Dashboard</b> — WLC weight sliders, live Top-5 ranking, capacity breakdown.</sub></p>
+</td>
+<td width="50%">
+<img src="docs/screenshot-map.png" alt="2D interactive capacity map"/>
+<p align="center"><sub><b>2D capacity heatmap</b> — storage scores with groundwater-borehole context layer.</sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%">
+<img src="docs/screenshot-plots.png" alt="Analysis plots"/>
+<p align="center"><sub><b>Analysis plots</b> — DEM elevation, hillshade, geology on terrain.</sub></p>
+</td>
+<td width="50%">
+<img src="docs/screenshot-home.png" alt="Home screen"/>
+<p align="center"><sub><b>Home</b> — run analysis, load a geodatabase, or open About.</sub></p>
+</td>
+</tr>
+</table>
 
 ---
 

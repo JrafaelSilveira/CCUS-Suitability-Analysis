@@ -44,6 +44,10 @@ Views/main_windowv0.py
 # Separate React/TypeScript web prototype — not part of the desktop program
 test/
 
+# Raw media folder — large source video/GIF kept local.
+# The optimized demo.gif + screenshots used by the README live in docs/.
+Images/
+
 # ---------------------------------------------------------------------------
 # Generated Word reports
 # ---------------------------------------------------------------------------
